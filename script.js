@@ -15,7 +15,8 @@ const alunos = [
     nome: "ANDREY ZULIANI SOARES",
     link: "https://andreysoares221209.github.io/CalculadoraJuros/",
   },
-  {    nome: "BRUNO LOPES TURATI",
+  {
+    nome: "BRUNO LOPES TURATI",
     link: "https://brunoturatisenai-tech.github.io/calc/",
   },
   {
