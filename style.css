@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(rgba(8, 15, 35, 0.88), rgba(8, 15, 35, 0.92)),
+    url("https://images.unsplash.com/photo-1551288049-bebda4e38f71");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  color: #d1d5db;
+  margin-bottom: 20px;
+}
+
+.professores {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  margin-bottom: 30px;
+
+  color: #7dd3fc;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.estatisticas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  margin-bottom: 30px;
+}
+
+.box-info {
+  width: 180px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 20px;
+
+  padding: 20px;
+}
+
+.box-info strong {
+  display: block;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.box-info span {
+  color: #d1d5db;
+}
+
+#pesquisa {
+  width: 100%;
+  max-width: 600px;
+
+  padding: 16px;
+
+  border: none;
+  border-radius: 15px;
+
+  font-size: 16px;
+
+  background: white;
+
+  outline: none;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.container-alunos {
+  width: 90%;
+  max-width: 1300px;
+
+  margin: 40px auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+  gap: 25px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+  color: white;
+  font-size: 1rem;
+  min-height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card a {
+  display: inline-block;
+
+  text-decoration: none;
+
+  background: #485f90;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background: #1d4ed8;
+}
+
+footer {
+  text-align: center;
+  color: #d1d5db;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .box-info {
+    width: 100%;
+  }
+}
