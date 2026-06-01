@@ -28,7 +28,7 @@ const alunos = [
   },
   {
     nome: "FABRÍCIO JOSÉ DAROS AMARAL",
-    link: "#",
+    link: "",
   },
   {
     nome: "FELIPE GABRIEL CAMARGO OLIVEIRA",
@@ -84,7 +84,7 @@ const alunos = [
   },
   {
     nome: "MATHEUS AUGUSTO PRADO",
-    link: "#",
+    link: "",
   },
   {
     nome: "MATHEUS BEZERRA MACIEL",
@@ -120,11 +120,11 @@ const alunos = [
   },
   {
     nome: "PIETRO TREVISANI BARBOSA",
-    link: "#",
+    link: "",
   },
   {
     nome: "VITOR EMANUEL LUVIZOTTO KELLER",
-    link: "#",
+    link: "",
   },
 ];
 
