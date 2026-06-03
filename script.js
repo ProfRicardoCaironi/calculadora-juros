@@ -29,7 +29,7 @@ const alunos = [
   },
   {
     nome: "FABRÍCIO JOSÉ DAROS AMARAL",
-    link: "",
+    link: "https://jdarosamaral.github.io/calculadora",
   },
   {
     nome: "FELIPE GABRIEL CAMARGO OLIVEIRA",
@@ -125,7 +125,7 @@ const alunos = [
   },
   {
     nome: "VITOR EMANUEL LUVIZOTTO KELLER",
-    link: "",
+    link: "https://vitorkeller13-ship-it.github.io/calculadora/",
   },
 ];
 
